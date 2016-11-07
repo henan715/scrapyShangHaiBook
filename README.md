@@ -8,6 +8,6 @@
 - xlwt
 
 ## 代码结构
-代码分为两块：MainSpider用于下载数据，通过BeautifulSoup解析网页内容，然后存储为Excel，刚开始打算存数据库，后来发现数据量太小，直接存储Excel吧，text2excel用于将txt数据转换为Excel数据（废弃），
+代码分为两块：MainSpider用于下载数据，通过BeautifulSoup解析网页内容，然后存储为Excel，刚开始打算存数据库，后来发现数据量太小，直接存储Excel吧，text2excel用于将txt数据转换为Excel数据（后来废弃不用了）。
 
 ![效果图Alt text](https://github.com/henan715/scrapyShangHaiBook/blob/master/screen.png)
